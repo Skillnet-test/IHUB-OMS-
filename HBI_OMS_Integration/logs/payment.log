@@ -1,0 +1,268 @@
+INFO  2017-12-22 19:59:12,911 19210  (main:com.payment.dao.CompanyCodeDao):
+      [com.payment.dao.CompanyCodeDao.onApplicationEvent(CompanyCodeDao.java:67)] 
+      Loading Company details{1=ComanyMappingData [companyCode=1, companyName=Ingenico, currencyCode=GBP, companyDesc=Holland and Barrett UK, warehouseNumber=1002], 2=ComanyMappingData [companyCode=2, companyName=Ingenico, currencyCode=EUR, companyDesc=Holland and Barrett IE, warehouseNumber=30001], 3=ComanyMappingData [companyCode=3, companyName=Adyen, currencyCode=EUR, companyDesc=Holland and Barrett NL, warehouseNumber=20002], 4=ComanyMappingData [companyCode=4, companyName=Adyen, currencyCode=EUR, companyDesc=Holland and Barrett BE, warehouseNumber=1111], 5=ComanyMappingData [companyCode=5, companyName=Ingenico, currencyCode=EUR, companyDesc=Holland and Barrett SW, warehouseNumber=22222], 6=ComanyMappingData [companyCode=6, companyName=Adyen, currencyCode=GBP, companyDesc=MET-Rx, warehouseNumber=10002]}
+
+ERROR 2017-12-22 19:59:32,816 39115  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 19:59:32,866 39165  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:00:00,715 67014  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:00:00,725 67024  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:00:30,397 96696  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:00:30,437 96736  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:01:00,309 126608  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:01:00,409 126708  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+INFO  2017-12-22 20:01:30,200 156499  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:01:30,320 156619  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:02:00,011 186310  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:02:00,383 186682  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+ERROR 2017-12-22 20:02:30,273 216572  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:02:30,283 216582  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+INFO  2017-12-22 20:03:00,147 246446  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:03:00,267 246566  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:03:30,012 276311  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:03:30,158 276457  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:04:00,002 306301  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:04:00,331 306630  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+ERROR 2017-12-22 20:04:30,273 336572  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:04:30,283 336582  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+INFO  2017-12-22 20:05:00,010 366309  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:05:00,152 366451  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+ERROR 2017-12-22 20:05:30,574 396873  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:05:30,608 396907  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+INFO  2017-12-22 20:06:00,006 426305  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:06:00,056 426355  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+ERROR 2017-12-22 20:06:30,305 456604  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:06:30,405 456704  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+INFO  2017-12-22 20:07:00,009 486308  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:07:00,300 486599  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:07:30,011 516310  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:07:30,232 516531  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+ERROR 2017-12-22 20:08:00,041 546340  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:08:00,111 546410  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:08:30,107 576406  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:08:30,127 576426  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+INFO  2017-12-22 20:09:00,002 606301  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:09:00,088 606387  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:09:30,071 636370  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:09:30,111 636410  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:10:00,045 666344  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:10:00,086 666385  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+ERROR 2017-12-22 20:10:30,058 696357  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:10:30,058 696357  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+INFO  2017-12-22 20:11:00,057 726356  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:11:00,197 726496  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:11:30,006 756305  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:11:30,036 756335  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:12:00,064 786363  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:12:00,125 786424  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:12:30,016 816315  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:12:30,056 816355  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:13:00,008 846307  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:13:00,058 846357  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+ERROR 2017-12-22 20:13:30,050 876349  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:13:30,060 876359  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+INFO  2017-12-22 20:14:00,066 906365  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:14:00,117 906416  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+ERROR 2017-12-22 20:14:30,092 936391  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:14:30,112 936411  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:15:00,203 966502  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:15:00,223 966522  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+
+ERROR 2017-12-22 20:15:30,118 996417  (pool-1-thread-1:com.payment.dao.PaymentManager):
+      [com.payment.dao.PaymentManager.getPaymentId(PaymentManager.java:171)] 
+      PickHeaderMsg does not contains any message that has PAYID
+
+INFO  2017-12-22 20:15:30,128 996427  (pool-1-thread-1:com.payment.scheduler.PaymentScheduledTask):
+      [com.payment.scheduler.PaymentScheduledTask.paymentSettlement(PaymentScheduledTask.java:23)] 
+       Payment Settlement Generation Started
+

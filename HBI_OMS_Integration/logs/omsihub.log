@@ -1,0 +1,1020 @@
+DEBUG 2017-12-22 15:54:20,150 24471  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.oms.order.error.dao.ErrorEventDao.updateErrorEvent' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 15:54:20,300 24621  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.PaymentDao.updateResponse' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 15:54:20,310 24631  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.PaymentDao.serchForOrderID' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 15:54:20,484 24805  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.CompanyCodeDao.onApplicationEvent' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 15:54:20,484 24805  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.CompanyCodeDao.onApplicationEvent' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 15:54:20,484 24805  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.CompanyCodeDao.onApplicationEvent' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 15:54:20,586 24907  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.oms.order.invoiceout.dao.InvoiceOutDAO.persistOMSInvoiceOut' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; '',-java.lang.Exception
+
+DEBUG 2017-12-22 15:54:20,586 24907  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.oms.order.invoiceout.dao.InvoiceOutDAO.persistOMSInvoiceOut' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; '',-java.lang.Exception
+
+DEBUG 2017-12-22 15:54:23,602 27923  (main:org.springframework.jdbc.datasource.DataSourceTransactionManager):
+      [org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:367)] 
+      Creating new transaction with name [com.payment.dao.CompanyCodeDao.onApplicationEvent]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 19:59:05,518 11817  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.oms.order.error.dao.ErrorEventDao.updateErrorEvent' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 19:59:05,650 11949  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.PaymentDao.updateResponse' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 19:59:05,653 11952  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.PaymentDao.serchForOrderID' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 19:59:05,790 12089  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.CompanyCodeDao.onApplicationEvent' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 19:59:05,790 12089  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.CompanyCodeDao.onApplicationEvent' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 19:59:05,801 12100  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.payment.dao.CompanyCodeDao.onApplicationEvent' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 19:59:08,368 14667  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.oms.order.invoiceout.dao.InvoiceOutDAO.persistOMSInvoiceOut' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; '',-java.lang.Exception
+
+DEBUG 2017-12-22 19:59:08,378 14677  (main:org.springframework.transaction.annotation.AnnotationTransactionAttributeSource):
+      [org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:116)] 
+      Adding transactional method 'com.oms.order.invoiceout.dao.InvoiceOutDAO.persistOMSInvoiceOut' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; '',-java.lang.Exception
+
+DEBUG 2017-12-22 19:59:11,016 17315  (main:org.springframework.jdbc.datasource.DataSourceTransactionManager):
+      [org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:367)] 
+      Creating new transaction with name [com.payment.dao.CompanyCodeDao.onApplicationEvent]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+
+DEBUG 2017-12-22 19:59:12,551 18850  (main:org.springframework.jdbc.datasource.DataSourceTransactionManager):
+      [org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:248)] 
+      Acquired Connection [HikariProxyConnection@1696963667 wrapping oracle.jdbc.driver.T4CConnection@5bbf744b] for JDBC transaction
+
+DEBUG 2017-12-22 19:59:12,561 18860  (main:org.springframework.jdbc.datasource.DataSourceTransactionManager):
+      [org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:265)] 
+      Switching JDBC Connection [HikariProxyConnection@1696963667 wrapping oracle.jdbc.driver.T4CConnection@5bbf744b] to manual commit
+
+DEBUG 2017-12-22 19:59:12,581 18880  (main:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM COMPANY_DETAILS]
+
+DEBUG 2017-12-22 19:59:12,911 19210  (main:org.springframework.jdbc.datasource.DataSourceTransactionManager):
+      [org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:759)] 
+      Initiating transaction commit
+
+DEBUG 2017-12-22 19:59:12,911 19210  (main:org.springframework.jdbc.datasource.DataSourceTransactionManager):
+      [org.springframework.jdbc.datasource.DataSourceTransactionManager.doCommit(DataSourceTransactionManager.java:310)] 
+      Committing JDBC transaction on Connection [HikariProxyConnection@1696963667 wrapping oracle.jdbc.driver.T4CConnection@5bbf744b]
+
+DEBUG 2017-12-22 19:59:12,911 19210  (main:org.springframework.jdbc.datasource.DataSourceTransactionManager):
+      [org.springframework.jdbc.datasource.DataSourceTransactionManager.doCleanupAfterCompletion(DataSourceTransactionManager.java:368)] 
+      Releasing JDBC Connection [HikariProxyConnection@1696963667 wrapping oracle.jdbc.driver.T4CConnection@5bbf744b] after transaction
+
+DEBUG 2017-12-22 19:59:30,277 36576  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 19:59:32,273 38572  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 19:59:32,273 38572  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 19:59:32,816 39115  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 19:59:32,816 39115  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 19:59:32,852 39151  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 19:59:32,888 39187  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:00:00,463 66762  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:00:00,463 66762  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:00:00,523 66822  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:00:00,553 66852  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:00:00,715 67014  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:00:00,715 67014  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:00:00,725 67024  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:00:30,166 96465  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:00:30,166 96465  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:00:30,397 96696  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:00:30,397 96696  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:00:30,417 96716  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:00:30,437 96736  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:00:30,487 96786  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:01:00,309 126608  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:01:00,309 126608  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:01:00,409 126708  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:01:00,409 126708  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:01:00,429 126728  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:01:00,569 126868  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:01:00,569 126868  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:01:30,120 156419  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:01:30,120 156419  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:01:30,160 156459  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:01:30,190 156489  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:01:30,200 156499  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:01:30,320 156619  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:01:30,320 156619  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:02:00,011 186310  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:02:00,103 186402  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:02:00,103 186402  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:02:00,193 186492  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:02:00,393 186692  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:02:00,393 186692  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:02:00,423 186722  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:02:30,002 216301  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:02:30,002 216301  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:02:30,142 216441  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:02:30,143 216442  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:02:30,273 216572  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:02:30,273 216572  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:02:30,293 216592  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:03:00,137 246436  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:03:00,137 246436  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:03:00,157 246456  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:03:00,267 246566  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:03:00,267 246566  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:03:00,287 246586  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:03:00,297 246596  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:03:30,012 276311  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:03:30,012 276311  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:03:30,022 276321  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:03:30,158 276457  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:03:30,158 276457  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:03:30,258 276557  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:03:30,258 276557  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:04:00,002 306301  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:04:00,331 306630  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:04:00,331 306630  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:04:00,391 306690  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:04:00,391 306690  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:04:00,401 306700  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:04:00,401 306700  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:04:30,152 336451  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:04:30,152 336451  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:04:30,162 336461  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:04:30,183 336482  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:04:30,273 336572  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:04:30,273 336572  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:04:30,283 336582  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:05:00,010 366309  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:05:00,010 366309  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:05:00,162 366461  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:05:00,162 366461  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:05:00,272 366571  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:05:00,272 366571  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:05:00,282 366581  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:05:30,374 396673  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:05:30,374 396673  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:05:30,574 396873  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:05:30,574 396873  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:05:30,584 396883  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:05:30,594 396893  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:05:30,610 396909  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:06:00,006 426305  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:06:00,006 426305  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:06:00,067 426366  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:06:00,067 426366  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:06:00,097 426396  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:06:00,137 426436  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:06:00,137 426436  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:06:30,050 456349  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:06:30,050 456349  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:06:30,050 456349  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:06:30,306 456605  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:06:30,306 456605  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:06:30,405 456704  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:06:30,425 456724  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:07:00,009 486308  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:07:00,009 486308  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:07:00,300 486599  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:07:00,300 486599  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:07:00,500 486799  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:07:00,500 486799  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:07:00,500 486799  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:07:30,011 516310  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:07:30,021 516320  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:07:30,071 516370  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:07:30,071 516370  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:07:30,232 516531  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:07:30,232 516531  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:07:30,242 516541  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:08:00,041 546340  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:08:00,041 546340  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:08:00,081 546380  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:08:00,091 546390  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:08:00,101 546400  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:08:00,101 546400  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:08:00,111 546410  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:08:30,037 576336  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:08:30,037 576336  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:08:30,067 576366  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:08:30,117 576416  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:08:30,117 576416  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:08:30,117 576416  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:08:30,127 576426  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:09:00,002 606301  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:09:00,002 606301  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:09:00,012 606311  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:09:00,052 606351  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:09:00,052 606351  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:09:00,088 606387  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:09:00,088 606387  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:09:30,010 636309  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:09:30,051 636350  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:09:30,051 636350  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:09:30,061 636360  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:09:30,071 636370  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:09:30,111 636410  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:09:30,111 636410  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:10:00,005 666304  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:10:00,045 666344  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:10:00,045 666344  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:10:00,055 666354  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:10:00,086 666385  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:10:00,086 666385  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:10:00,096 666395  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:10:30,007 696306  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:10:30,007 696306  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:10:30,058 696357  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:10:30,058 696357  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:10:30,068 696367  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:10:30,171 696470  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:10:30,172 696471  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:11:00,037 726336  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:11:00,037 726336  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:11:00,047 726346  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:11:00,057 726356  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:11:00,057 726356  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:11:00,197 726496  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:11:00,197 726496  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:11:30,006 756305  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:11:30,036 756335  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:11:30,036 756335  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:11:30,036 756335  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:11:30,097 756396  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:11:30,097 756396  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:11:30,107 756406  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:12:00,004 786303  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:12:00,004 786303  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:12:00,054 786353  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:12:00,054 786353  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:12:00,074 786373  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:12:00,125 786424  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:12:00,125 786424  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:12:30,006 816305  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:12:30,016 816315  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:12:30,056 816355  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:12:30,056 816355  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:12:30,066 816365  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:12:30,106 816405  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:12:30,106 816405  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:13:00,008 846307  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:13:00,018 846317  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:13:00,058 846357  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:13:00,068 846367  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:13:00,099 846398  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:13:00,099 846398  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:13:00,109 846408  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:13:30,010 876309  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:13:30,050 876349  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:13:30,050 876349  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:13:30,050 876349  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:13:30,060 876359  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:13:30,101 876400  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:13:30,101 876400  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:14:00,056 906355  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:14:00,056 906355  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:14:00,066 906365  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:14:00,066 906365  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:14:00,077 906376  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:14:00,117 906416  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:14:00,117 906416  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:14:30,041 936340  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:14:30,041 936340  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:14:30,092 936391  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:14:30,092 936391  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:14:30,102 936401  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:14:30,112 936411  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:14:30,122 936421  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:15:00,083 966382  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:15:00,083 966382  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:15:00,203 966502  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:15:00,203 966502  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:15:00,213 966512  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:15:00,223 966522  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:15:00,243 966542  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:15:30,006 996305  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [ SELECT ID_STR_RT, ID_WS, DC_DY_BSN, AI_TRN, ID_RTLOG_BTCH, TS_TRN_END FROM TR_TRN WHERE ID_STR_RT = '1002' AND ID_RTLOG_BTCH = '-1' ORDER BY TS_TRN_END ]
+
+DEBUG 2017-12-22 20:15:30,062 996361  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:15:30,063 996362  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:15:30,118 996417  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:869)] 
+      Executing prepared SQL update
+
+DEBUG 2017-12-22 20:15:30,118 996417  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:616)] 
+      Executing prepared SQL statement [INSERT INTO ERROR_EVENT(REQUEST_TYPE, EVENT_DATE, CONTENT_TYPE, PAYLOAD, ERROR_MESSAGE, PROCESS_FLAG, CREATED_DATE, MODIFIED_DATE) values ( ?, to_char(sysdate, 'dd-MON-yy'), ?,?,?,0, CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)]
+
+DEBUG 2017-12-22 20:15:30,128 996427  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM PAYMENT WHERE ID_STATUS = -1 ORDER BY CREATED_DATE ASC]
+
+DEBUG 2017-12-22 20:15:30,138 996437  (pool-1-thread-1:org.springframework.jdbc.core.JdbcTemplate):
+      [org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)] 
+      Executing SQL query [SELECT * FROM ERROR_EVENT WHERE PROCESS_FLAG=0 ORDER BY CREATED_DATE ASC]
+

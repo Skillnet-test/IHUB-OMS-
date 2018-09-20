@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ncresponse  orderID="1039" PAYID="3028073263" PAYIDSUB=""
+	NCSTATUS="0" NCERROR="" NCERRORPLUS="" ACCEPTANCE="testoff" STATUS="9"
+	IPCTY="99" CCCTY="AE" ECI="7" CVCCheck="NO" AAVCheck="NO" VC="NO"
+	amount="15" currency="EUR" PM="CreditCard" BRAND="MasterCard" CARDNO="XXXXXXXXXXXX9999"
+	SCORING="0" SCO_CATEGORY="G">
+</ncresponse>

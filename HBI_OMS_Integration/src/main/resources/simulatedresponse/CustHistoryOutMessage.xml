@@ -1,0 +1,27 @@
+<Message source="RDC" target="IDC" type="CWORDEROUT">
+    <Header company_code="51" order_id="1035" customer_number="116" order_date="11272017" order_channel="C" bill_me_later_ind="N" order_status="X" order_type="P" order_type_description="PHONE ORDER" entered_date="11272017" entered_time="122331" email_confirm_date="11272017" source_code="A123" offer_id="WEB" sold_to_fname="NEERAV" sold_to_lname="SHIRALKAR" sold_to_busres="R" sold_to_address1="41,NUNEATON STREET" sold_to_city="NT" sold_to_state="WA" sold_to_state_description="Warwickshire" sold_to_country="UK" sold_to_day_phone="5085551212" sold_to_eve_phone="2910135079933" sold_to_opt_in="O1" allow_rent="Y" allow_mail="N">
+        <Payments>
+            <Payment payment_seq_number="1" pay_type="5" pay_type_desc="MASTERCARD" credit_card_nbr="************0004" credit_card_exp_dt="821" start_date="108" card_issue_nbr="2" cc_last_four="0004"/>
+        </Payments>
+        <ShipTos>
+            <ShipTo ship_to_number="1" sub_total="75.90" shipping="2.00" order_total="77.90" ship_to_status="X" gift_order="N" ship_via_code="1" ship_via_description="UPS GROUND" shipping_override="Y" ship_to_fname="NEERAV" ship_to_lname="SHIRALKAR" ship_to_busres="R" ship_to_address1="41,NUNEATON STREET" ship_to_city="NT" ship_to_state="WA" ship_to_state_description="Warwickshire" ship_to_country="UK">
+                <Details>
+                    <Detail line_seq_number="1" short_sku_number="129" status="X" item_id="004000" item_description="Precision Engineered Whey Protein Banana" actual_price="37.95" drop_ship="N" order_quantity="1" ship_quantity="1" last_ship_date="11272017" set_main_item="N" set_component_item="N" gift_wrap="N">
+                        <Shipments>
+                            <Shipment invoice_nbr="498" invoice_ship_quantity="1" invoice_ship_date="11272017" invoice_ship_via_code="1" invoice_ship_via_desc="UPS GROUND" invoice_ship_via_type="U" invoice_tracking_URL="HTTP://wwwapps.ups.com/WebTracking/processInputRequest?HTMLVersion=5.0&amp;loc=en_US&amp;Requester=UPSHome&amp;tracknum=&amp;AgreeToTermsAndConditions=yes"/>
+                        </Shipments>
+                    </Detail>
+                    <Detail line_seq_number="2" short_sku_number="115" status="X" item_id="AB1001" item_description="CLOWN PIN" actual_price="37.95" drop_ship="N" order_quantity="1" ship_quantity="1" last_ship_date="11272017" set_main_item="N" set_component_item="N" gift_wrap="N">
+                        <Shipments>
+                            <Shipment invoice_nbr="498" invoice_ship_quantity="1" invoice_ship_date="11272017" invoice_ship_via_code="1" invoice_ship_via_desc="UPS GROUND" invoice_ship_via_type="U" invoice_tracking_URL="HTTP://wwwapps.ups.com/WebTracking/processInputRequest?HTMLVersion=5.0&amp;loc=en_US&amp;Requester=UPSHome&amp;tracknum=&amp;AgreeToTermsAndConditions=yes"/>
+                        </Shipments>
+                    </Detail>
+                </Details>
+                <Ord_Msgs>
+                    <Ord_Msg ord_msg_text="86|R|2.00|9815000138803" ord_msg_code="G"/>
+                    <Ord_Msg ord_msg_text="86|AUTH|2.00|7615000138893" ord_msg_code="G"/>
+                </Ord_Msgs>
+            </ShipTo>
+        </ShipTos>
+    </Header>
+</Message>

@@ -1,0 +1,43 @@
+--------------------------------------------------------
+--  DDL for Table Comnpany Details
+--------------------------------------------------------
+DROP TABLE COMPANY_DETAILS;
+CREATE TABLE COMPANY_DETAILS
+ (
+    COMPANY_CODE       NUMBER(10,0) NOT NULL ENABLE,
+    COMPANY_DESC       VARCHAR2(50 BYTE),
+    CURRENCY_CODE      VARCHAR2(50 BYTE),
+    COMPANY_NAME       VARCHAR2(50 BYTE),
+    WAREHOUSE_NUMBER   VARCHAR2(50 BYTE),
+    PSPID			   VARCHAR2(50 BYTE),
+    USER_ID 		   VARCHAR2(50 BYTE),
+    PSWD			   VARCHAR2(50 BYTE),
+    PASS_PHRASE		   VARCHAR2(50 BYTE)
+);
+
+COMMENT ON COLUMN COMPANY_DETAILS.COMPANY_CODE IS 'company code';
+
+COMMENT ON COLUMN COMPANY_DETAILS.COMPANY_DESC IS 'company  description';
+ 
+COMMENT ON COLUMN COMPANY_DETAILS.CURRENCY_CODE IS 'currency code';
+ 
+COMMENT ON COLUMN COMPANY_DETAILS.COMPANY_NAME IS 'payment integration company name';
+ 
+COMMENT ON COLUMN COMPANY_DETAILS.WAREHOUSE_NUMBER IS 'warehouse number';
+
+COMMENT ON COLUMN COMPANY_DETAILS.PSPID IS 'COMAPANY';
+
+COMMENT ON COLUMN COMPANY_DETAILS.USER_ID IS 'user id';
+ 
+COMMENT ON COLUMN COMPANY_DETAILS.PSWD IS 'password';
+
+COMMENT ON COLUMN COMPANY_DETAILS.PASS_PHRASE IS 'SHA SIGN PASS PHRASE';
+
+
+INSERT INTO COMPANY_DETAILS VALUES(1,'Holland and Barrett UK','GBP','Ingenico','1002','HandBWeb','HandBWebAPIUSER','hbWebApiPass2016!','Mysecretsig1875dl!?');
+INSERT INTO COMPANY_DETAILS VALUES(2,'Holland and Barrett IE','EUR','Ingenico','30001','HandBIEMOTO','HandBIEMOTOAPIUSER','hbIEMotoApiPass2016!','Mysecretsig1875dl!?');
+INSERT INTO COMPANY_DETAILS VALUES(3,'Holland and Barrett NL','EUR','Adyen','20002','DETUINEN','ws_616292@Company.NBTY','WZ6a*9uWBQ3M)SWw#ybu6*zs*','null');
+INSERT INTO COMPANY_DETAILS VALUES(4,'Holland and Barrett BE','EUR','Adyen','1111','Belgium','ws_022342@Company.NBTY','WZ6a*9uWBQ3M)SWw#ybu6*zs*','null');
+INSERT INTO COMPANY_DETAILS VALUES(5,'Holland and Barrett SW','EUR','Ingenico','22222','HandBWeb','HandBWebAPIUSER','hbWebApiPass2016!','Mysecretsig1875dl!?');
+INSERT INTO COMPANY_DETAILS VALUES(6,'MET-Rx','GBP','Adyen','10002','Met-Rx','ws_022342@Company.NBTY','WZ6a*9uWBQ3M)SWw#ybu6*zs*','null');
+
